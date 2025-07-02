@@ -1,0 +1,107 @@
+html{
+    background-color: #1c1919;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 310px;
+}
+
+h3{
+    color: rgb(228, 228, 228);
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+button{
+    box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.596);
+    border:none;
+    border-radius: 6px;
+    width: 270px;
+    height: 30px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    animation-name: button-off;
+    animation-duration: 0.4s;  
+    animation-fill-mode: both;
+    
+}
+
+@keyframes button-off {
+    from {background-color: rgb(255, 243, 246); color: rgb(255, 117, 117);}
+    to {background-color:rgb(26, 26, 26)}
+}
+
+button:hover{
+    cursor: pointer;
+    animation-name: button-on;
+    animation-duration: 0.4s;  
+    animation-fill-mode: both;
+}
+
+@keyframes button-on {
+    from {background-color: rgb(10, 10, 10);}
+    to {background-color: rgb(255, 243, 246);color: rgb(255, 117, 117);}
+}
+
+a:link {
+  color: bisque;;
+}
+a:hover{
+    color:bisque;
+}
+a:visited {
+  color: bisque;;
+}
+a:active {
+  color: bisque;;
+}
+
+p{
+    text-align: center;
+    margin-right: 45px;
+    color:bisque;
+}
+
+footer{
+    margin-top: 45px;
+    padding-top: 15px;
+    opacity: 0.5;
+}
+
+.main-box{
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.534);
+    margin-inline: 300px;
+    background-color: #292929;
+    margin-top: 180px;
+    margin-left: 39%;
+    margin-right: 42%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 4%;
+    text-align:center
+}
+.title-box{
+    margin-top: 100px;
+}
+
+.button-v-1{
+    padding-bottom: 30px;
+}
+.button-v-2{
+    padding-bottom: 30px;
+}
+.button-v-3{
+    padding-bottom: 30px;
+}
+.button-v-4{
+    padding-bottom: 30px;
+}
+
