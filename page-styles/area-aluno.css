@@ -5,6 +5,7 @@ html{
 
 img{
     width: 310px;
+    padding-top: 120px;
 }
 
 label{
@@ -76,7 +77,6 @@ a:active {
 
 p{
     text-align: center;
-    margin-right: 45px;
     color:bisque;
 }
 
@@ -87,18 +87,15 @@ footer{
 }
 
 .main-box{
+    align-self: center;
+    width: 350px;
+    height: 700px;
     border-radius: 8px;
     box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.534);
-    margin-inline: 300px;
     background-color: #292929;
-    margin-top: 180px;
-    margin-left: 39%;
-    margin-right: 42%;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 11%;
     text-align:center;
+    margin-inline: auto;
+    margin-top:130px;
 }
 
 .content-box-body{
