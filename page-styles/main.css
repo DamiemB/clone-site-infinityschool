@@ -5,7 +5,7 @@ html{
 
 img{
     width: 310px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 h3{
@@ -51,39 +51,48 @@ button:hover{
 }
 
 a:link {
-  color: bisque;;
+    color: bisque;
 }
 a:hover{
     color:bisque;
 }
 a:visited {
-  color: bisque;;
+    color: bisque;
 }
 a:active {
-  color: bisque;;
+    color: bisque;
 }
 
 p{
-    text-align: center;
     color:bisque;
 }
 
 footer{
-    margin-top: 45px;
+    text-align: center;
+    margin-top: 100px;
     padding-top: 15px;
     opacity: 0.5;
 }
 
 .main-box{
-    align-self: center;
-    width: 350px;
-    height: 700px;
+    width: 360px;
+    height: 600px;
     border-radius: 8px;
     box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.534);
     background-color: #292929;
+    align-self: center;
     text-align:center;
     margin-inline: auto;
     margin-top:130px;
+    padding-bottom: 10px;
+    animation-name: logo-anime;
+    animation-duration: 3s;  
+    animation-fill-mode: both;
+}
+
+@keyframes logo-anime{
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .button-v-1{

@@ -1,0 +1,27 @@
+html{
+    background-color: #1c1919;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: bisque;
+    margin-top: 25%;
+}
+
+button{
+    color: brown;
+    cursor: pointer;
+    border:none;
+    border-radius: 6px;
+    width: 270px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    background-color: rgba(32, 32, 32, 0);
+    
+}
+
+button:hover{
+    color:red;
+}

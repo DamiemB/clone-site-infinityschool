@@ -1,6 +1,8 @@
 html{
     background-color: #1c1919;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 img{
@@ -56,8 +58,8 @@ input{
     height: 26px;
     width: 270px;
     border-radius: 6px;
+    text-align: center;
 }
-
 input::placeholder{
     text-align: center;
 }
@@ -76,26 +78,26 @@ a:active {
 }
 
 p{
-    text-align: center;
     color:bisque;
 }
 
 footer{
-    margin-top: 45px;
+    margin-top: 100px;
     padding-top: 15px;
     opacity: 0.5;
+    text-transform: none;
 }
 
 .main-box{
     align-self: center;
-    width: 350px;
-    height: 700px;
+    width: 360px;
+    height: 600px;
     border-radius: 8px;
     box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.534);
     background-color: #292929;
-    text-align:center;
     margin-inline: auto;
     margin-top:130px;
+    padding-bottom: 10px;
 }
 
 .content-box-body{
@@ -126,4 +128,3 @@ footer{
 .data-nacimento-input-conteiner{
     margin-bottom: 5px;
 }
-
